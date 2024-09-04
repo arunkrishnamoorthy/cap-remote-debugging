@@ -17,6 +17,12 @@ The log highlighted below will be registered on this step to inform you successf
 
 Step 3: Find the process running the Server and kill the process with the flag -usr1 
 
+To see the list of process running execute following command .
+
+```
+ps aux
+```
+
 ```
 kill -usr1 <pid>
 ```
